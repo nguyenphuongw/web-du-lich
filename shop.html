@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icon-app.png" />
+    <title>Travelix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!-- header -->
+        <header class="header">
+            <div class="header__topbar">
+                <div class="grid wide">
+                    <div class="header__topbar__container">
+                        <div class="row">
+                            <div class="l-6 m-8 c-8">
+                                <div class="header__topbar__container--contacts">
+                                    <span>+84 945 000 917</span>
+                                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    <a href="#"><i class="fab fa-behance"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="l-6 m-4 c-4">
+                                <ul class="header__topbar__container--register">
+                                    <a href="login.html">
+                                        <li>Đăng Nhập</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>|</li>
+                                    </a>
+                                    <a href="login.html">
+                                        <li>Đăng Ký</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__nav">
+                <div class="header__nav__container">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="l-3 m-6 c-8">
+                                <a href="homepage.html">
+                                    <div class="header__nav__container--logo">
+                                        <img src="img/logo-app.png" alt="PY Travelix" /><span
+                                            style="padding-left: 9px; margin-top: -1px; color: rgb(23, 104, 104);">PY
+                                            Travelix</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="l-6 hide-on-tablet_mobile">
+                                <ul class="header__nav__container--list">
+                                    <li><a href="homepage.html">Trang Chủ</a></li>
+                                    <li><a href="pages/about.html">Ưu Đãi</a></li>
+                                    <li><a href="tour.html">Tour</a></li>
+                                    <li><a href="pages/news.html">Khách Sạn</a></li>
+                                    <li><a class="active" href="shop.html">Shop</a></li>
+                                </ul>
+                            </div>
+                            <div class="l-3 m-6 c-4">
+                                <i class="fas fa-bars list-tablet-mobile" id="menu_open"></i>
+                                <div class="header__nav__container--search">
+                                    <i class="fas fa-search" id="search"></i>
+                                    <br />
+                                    <input type="text" placeholder="Tìm kiếm..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- sub header -->
+            <div class="header__menu">
+                <div class="header__menu__overlay"></div>
+                <div class="header__menu__body--content">
+                    <ul>
+                        <li><a href="homepage.html">Trang Chủ</a></li>
+                        <li><a href="pages/about.html">Ưu Đãi</a></li>
+                        <li><a href="pages/offers.html">Tour</a></li>
+                        <li><a href="pages/news.html">Khách Sạn</a></li>
+                        <li><a class="active" href="shop.html">Shop</a></li>
+                        <li><a href="login.html">Đăng Nhập</a></li>
+                    </ul>
+                    <i class="fas fa-times" id="menu_close"></i>
+                </div>
+            </div>
+            <div class="scroll-top">
+                <i class="fas fa-arrow-up"></i>
+            </div>
+        </header>
+
+
+        <!-- home -->
+        <div class="home">
+            <div class="home__background"></div>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="home__container__slider">
+                        <div class="home__container__slider--imghuman">
+                            <img src="https://backpacktraveler.qodeinteractive.com/wp-content/uploads/2018/09/landing-slide1-img-1.png"
+                                alt="">
+                        </div>
+
+                        <div class="home__container__slider--imgcity">
+                            <img src="https://backpacktraveler.qodeinteractive.com/wp-content/uploads/2018/09/landing-slide1-img-2.png"
+                                alt="">
+                        </div>
+
+                        <div class="home__container__slider--imgefen">
+                            <img src="https://backpacktraveler.qodeinteractive.com/wp-content/uploads/2018/09/landing-slide1-img-4.png"
+                                alt="">
+                        </div>
+
+                        <div class="home__container__slider--imgabove">
+                            <img src="https://backpacktraveler.qodeinteractive.com/wp-content/uploads/2018/09/landing-slide1-img-3.png"
+                                alt="">
+                        </div>
+
+                        <div class="home__container__slider--imgplane">
+                            <img src="https://backpacktraveler.qodeinteractive.com/wp-content/uploads/2018/09/smajli-landing-img-7.png"
+                                alt="">
+                        </div>
+
+                        <div class="home__container__slider--imgvali">
+                            <img src="img/img_shop/img_home_shop.png" alt="">
+                        </div>
+
+                        <div class="home__container__slider--imgplanewhite">
+                            <img src="img/plane_message.png" alt="">
+                        </div>
+
+                        <div class="home__container__slider--img">
+                            <img src="https://backpacktraveler.qodeinteractive.com/wp-content/uploads/2018/09/landing-slide1-img-5.png"
+                                alt="">
+                        </div>
+
+                        <div class="home__container__slider--imgsublogo">
+                            <img src="img/img_shop/sub_logo_shop.png" alt="">
+                        </div>
+
+                        <div class="home__container__slider--imglogo">
+                            <img src="img/img_shop/logo_shop.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- content -->
+        <div class="content">
+
+            <!-- slide about -->
+            <div class="container-about-shop">
+
+                <div class="introduce-container">
+
+                    <div class="introduce-container_imgline">
+                        <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-layouts-img-4.png"
+                            alt="">
+                    </div>
+                    <div class="introduce-container_imgusa">
+                        <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-layouts-img-8.png"
+                            alt="">
+                    </div>
+                    <div class="introduce-container_imglineshort">
+                        <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-layouts-img-6.png"
+                            alt="">
+                    </div>
+                    <div class="introduce-container_imgcity">
+                        <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-layouts-img-14.jpg"
+                            alt="">
+                    </div>
+                    <div class="introduce-container_imgcolabear">
+                        <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-layouts-img-13.jpg"
+                            alt="">
+                    </div>
+                    <div class="introduce-container_imgaddress">
+                        <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-pin-1.png"
+                            alt="">
+                    </div>
+                    <div class="introduce-container_imgbalo">
+                        <img src="img/img_shop/yellow_bag.png" alt="">
+                    </div>
+                    <div class="introduce-container_imglineshortbalo">
+                        <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-layouts-img-6.png"
+                            alt="">
+                    </div>
+
+                    <div class="grid wide shop-content-about">
+                        <div class="row-2 introduce-container-item">
+                            <div class="introduce-item-img">
+                                <img src="img/img_shop/introduce_img_shop.png" alt="" class="introduce-item-img--img">
+                            </div>
+                            <div class="introduce-item-text">
+                                <h2>Khám phá và lên kế hoạch chuyến du lịch đáng nhớ!</h2>
+                                <p>
+                                    Chào mừng bạn đến với cửa hàng chuyên bán đồ du lịch! Chúng tôi hiểu rằng việc chuẩn
+                                    bị cho một chuyến đi là một phần quan trọng để đảm bảo bạn có một trải nghiệm du
+                                    lịch tuyệt vời. Với sự đa dạng và chất lượng cao của các sản phẩm mà chúng tôi cung
+                                    cấp, chúng tôi sẽ giúp bạn trang bị đầy đủ và tiện ích cho mọi cuộc phiêu lưu. Bạn
+                                    sẽ tìm thấy một loạt các món đồ du lịch thiết yếu, từ vali và túi xách chất lượng
+                                    cao để đảm bảo hành lý của bạn an toàn và tiện lợi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- valis product -->
+            <div class="background-vali-shop">
+                <div class="container-vali-shop grid wide">
+
+                    <div class="vali-shop-heading">
+                        <h2>Vali chất lượng cao - Đồng hành đáng tin cậy!</h2>
+                    </div>
+
+                    <div class="vali-shop-header-search">
+                        <div class="search__container">
+                            <div class="row">
+
+                                <div class="search__container--item l-2 m-6 c-12">
+                                    <div>
+                                        <span>Tên Thương Hiệu</span>
+                                    </div>
+                                    <input type="text" placeholder="Thương hiệu..." />
+                                </div>
+                                <div class="search__container--item l-2 m-6 c-12">
+                                    <div>
+                                        <span>Màu Sắc</span>
+                                    </div>
+                                    <input type="text" placeholder="Màu sắc..." />
+                                </div>
+                                <div class="search__container--item item-fix l-2 m-3 c-6">
+                                    <div>
+                                        <span class="font-size-small">Giá tiền</span>
+                                    </div>
+                                    <select name="" id="">
+                                        <option>Giá Tiền</option>
+                                        <option>1tr-5tr</option>
+                                        <option>5tr-10tr</option>
+                                        <option>10tr-15tr</option>
+                                    </select>
+                                </div>
+                                <div class="search__container--btn l-2 m-4 c-4">
+                                    <a href="#">Tìm Kiếm</a>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-product" id="Product">
+                        <div class="content-product">
+
+                            <!-- product list row 1 -->
+                            <div class="row-4 content-product-list-first">
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsxhrd0t1osk27"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Vali du lịch Kingsun</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw9tseostpll9e"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Vali Bamozo Khung Nhôm 9066</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/0f5c377626a03ec004c876cbd72f54d1"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Vali kéo du lịch có ngăn đựng laptop</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lp680nkunpsr6d"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Vali du lịch có khóa số bảo mật TSA</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                            </div>
+
+                            <!-- product list row 2 -->
+                            <div class="row-4 content-product-list-second">
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/2f8eb9e8e6b5e7f905e53e12eb401a04"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Vali kéo du lịch size20/24 xách tay thời
+                                        trang</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-logbd9q74eyf76"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Vali Du Lịch Cao Cấp Size 20/24 - Khóa
+                                        Kéo - Nhựa ABS 841 Bo Góc Kim Loại Chống Va Đập Cao Cấp Bảo Hành Lên Đến 12
+                                        Tháng</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lgkc8dzb5f5j9f"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Vali Premium KHUNGNHÔM CAO CẤP Sata korea
+                                    </p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7qukw-leql3bivygtubf"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Vali du lịch HTXIANSHENG</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                            </div>
+
+                            <!-- see more product -->
+                            <div class="container-see-more-product">
+                                <div class="content-see-more-product">
+                                </div>
+                                <a href="#">Xem Thêm</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- balo product -->
+            <div class="background-balo-shop">
+                <div class="container-vali-shop grid wide">
+
+                    <div class="vali-shop-heading">
+                        <h2>Balo du lịch - Đồ đồng hành hoàn hảo cho chuyến phiêu lưu!</h2>
+                    </div>
+
+                    <div class="vali-shop-header-search">
+                        <div class="search__container">
+                            <div class="row">
+
+                                <div class="search__container--item l-2 m-6 c-12">
+                                    <div>
+                                        <span>Tên Thương Hiệu</span>
+                                    </div>
+                                    <input type="text" placeholder="Thương hiệu..." />
+                                </div>
+                                <div class="search__container--item l-2 m-6 c-12">
+                                    <div>
+                                        <span>Màu Sắc</span>
+                                    </div>
+                                    <input type="text" placeholder="Màu sắc..." />
+                                </div>
+                                <div class="search__container--item item-fix l-2 m-3 c-6">
+                                    <div>
+                                        <span class="font-size-small">Giá tiền</span>
+                                    </div>
+                                    <select name="" id="">
+                                        <option>Giá Tiền</option>
+                                        <option>1tr-5tr</option>
+                                        <option>5tr-10tr</option>
+                                        <option>10tr-15tr</option>
+                                    </select>
+                                </div>
+                                <div class="search__container--btn l-2 m-4 c-4">
+                                    <a href="#">Tìm Kiếm</a>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-product" id="Product">
+                        <div class="content-product">
+
+                            <!-- product list row 1 -->
+                            <div class="row-4 content-product-list-first">
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lq8rmyryuh8y97"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Balo leo núi /du lịch Yuzi Usual 40L</p>
+                                    <p class="content-product-price"><span>990.000đ</span>500.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/sg-11134201-23020-2vlxmiatzanvb2"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">COD 50-80L Balo du lịch nam</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/sg-11134201-22120-mf4swl7xe6kvf6"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Ba lô đi phượt leo núi balo du lịch</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rcco-ls3vygv57q6t55"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Ba lô du lịch SISEA sức chứa lớn chống trộm
+                                        chống nước cho nam</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                            </div>
+
+                            <!-- product list row 2 -->
+                            <div class="row-4 content-product-list-second">
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ll9dhbg2dfpk61"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description"> Balo thể thao nam to nhất Big Size 70L</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/268236d944482525da6727254383b3b6"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Túi Xách Du Lịch To Đại, Đựng Quần Áo, Đi
+                                        Chơi Dài Ngày Siêu Đẹp</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/7100a8e850b86f1203d9bdf0c026fb41"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Balo Kiêm Túi Du Lịch Đa Năng Sarus Cane SC03
+                                    </p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lhcwhfvcpusy2e"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Balo Du Lịch Nam Nữ Chống Nước Adi.das Ops
+                                        30L Rucksack Có Ngăn Giày Đồ Dơ Riêng Quai Đeo Êm Bảo Hành Trọn Đời</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                            </div>
+
+                            <!-- see more product -->
+                            <div class="container-see-more-product">
+                                <div class="content-see-more-product">
+                                </div>
+                                <a href="#">Xem Thêm</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- accessory product -->
+            <div class="background-accessory-shop ">
+                <div class="container-vali-shop grid wide">
+
+                    <div class="vali-shop-heading">
+                        <h2>Phụ kiện du lịch - Đồ tiện ích cho hành trình khám phá!</h2>
+                    </div>
+
+                    <div class="vali-shop-header-search">
+                        <div class="search__container">
+                            <div class="row">
+
+                                <div class="search__container--item l-2 m-6 c-12">
+                                    <div>
+                                        <span>Tên Thương Hiệu</span>
+                                    </div>
+                                    <input type="text" placeholder="Thương hiệu..." />
+                                </div>
+                                <div class="search__container--item l-2 m-6 c-12">
+                                    <div>
+                                        <span>Màu Sắc</span>
+                                    </div>
+                                    <input type="text" placeholder="Màu sắc..." />
+                                </div>
+                                <div class="search__container--item item-fix l-2 m-3 c-6">
+                                    <div>
+                                        <span class="font-size-small">Giá tiền</span>
+                                    </div>
+                                    <select name="" id="">
+                                        <option>Giá Tiền</option>
+                                        <option>1tr-5tr</option>
+                                        <option>5tr-10tr</option>
+                                        <option>10tr-15tr</option>
+                                    </select>
+                                </div>
+                                <div class="search__container--btn l-2 m-4 c-4">
+                                    <a href="#">Tìm Kiếm</a>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-product" id="Product">
+                        <div class="content-product">
+
+                            <!-- product list row 1 -->
+                            <div class="row-4 content-product-list-first">
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvbfvdw56qod2f"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Bình Nước Gấp Gọn 500ml Silicone</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rd6m-luacaykwspz7ce"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Túi ngủ đơn nhiệt khẩn cấp ngoài trời Nén di
+                                        động Túi lưu trữ chống nước Du lịch Đi bộ đường dài Dụng cụ leo núi</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rcf5-lqv7hi8tlghqbf"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Bình uống nước TOPSPINS, Bình nước thể thao
+                                        dung tích lớn chống rò rỉ</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llvtedodsau7c3"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Lều cắm trại đi đu lịch tự động lều chống
+                                        nước chống tia tử ngoại</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                            </div>
+
+                            <!-- product list row 2 -->
+                            <div class="row-4 content-product-list-second">
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/c6eb0936ac84d6d87ea4ee3094f0db55"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">[FREESHIP] Bộ Dụng Cụ Sinh Tồn SOS 10 Món Có
+                                        Hộp Nhựa.</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/sg-11134201-22110-z5dkard2yijv9b"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Lều cắm trại tự bung cho 4-6 người Lều du
+                                        lịch kích thước 2x2m</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltgibm0vk7be31"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Lều cắm trại đu lịch tự động tử ngoại 2m*2m
+                                    </p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                                <div class="content-product-item product-item-tablet product-item-mobile">
+                                    <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsj9xa4gkdcp23"
+                                        alt="" class="content-product-item-img">
+                                    <p class="content-product-description">Lều cắm trại chínhãng tự bung lều dã ngoại
+                                        phượt du lịch 2 lớp</p>
+                                    <p class="content-product-price"><span>350.000đ</span>299.000đ</p>
+                                    <p class="content-product-origant">Sản xuất: Hàn Quốc</p>
+                                    <button class="content-product-bnt js-product-btn">Oder</button>
+                                </div>
+                            </div>
+
+                            <!-- see more product -->
+                            <div class="container-see-more-product">
+                                <div class="content-see-more-product">
+                                </div>
+                                <a href="#">Xem Thêm</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Phân trang -->
+            <ul class="pagination home-product__pagination grid wide">
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link">
+                        <i class="pagination-item__icon fas fa-chevron-left"></i>
+                    </a>
+                </li>
+
+                <li class="pagination-item pagination-item--active">
+                    <a href="" class="pagination-item__link">1</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link">2</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link">3</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link">4</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link">5</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link" style="cursor: default;">...</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link">14</a>
+                </li>
+
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link">
+                        <i class="pagination-item__icon fas fa-chevron-right"></i>
+                    </a>
+                </li>
+            </ul>
+
+
+            <!-- map -->
+            <div class="container-map">
+                <div class="introduce-container_imgline-map">
+                    <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-layouts-img-4.png"
+                        alt="">
+                </div>
+                <div class="introduce-container_imgaddress">
+                    <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-pin-1.png"
+                        alt="">
+                </div>
+                <div class="introduce-container_imglineshortbalo">
+                    <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-layouts-img-6.png"
+                        alt="">
+                </div>
+                <div class="introduce-container_imgcity-map">
+                    <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/landing-layouts-img-14.jpg"
+                        alt="">
+                </div>
+
+                <div class="content-map row-2 grid wide">
+                    <div class="content-map-item-img">
+                        <img src="img/img_shop/landing-posts-img-1.jpg" alt="" class="">
+                    </div>
+                    <div class="content-map-item-text">
+                        <h2>"Chân thành cảm ơn bạn đã ghé thăm trang sản phẩm du lịch của chúng tôi!"</h2>
+                        <p>
+                            Chúng tôi xin chân thành cảm ơn bạn đã ghé thăm trang sản phẩm du lịch của chúng tôi. Sự
+                            quan tâm và ủng hộ của bạn là một nguồn động viên lớn và giúp chúng tôi tiếp tục cung cấp
+                            những trải nghiệm du lịch tốt nhất. Chúng tôi rất hân hạnh được phục vụ bạn và mong muốn
+                            mang đến cho bạn những chuyến đi tuyệt vời và đáng nhớ. Cảm ơn bạn rất nhiều!
+                        </p>
+                        <div class="content-map-img-ggmap">
+                            <a href="">
+                                <img src="img/img_shop/landing-map-logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-6 s-12">
+                            <div class="footer__container__about">
+                                <div class="container__about--logo">
+                                    <a href="#">
+                                        <img src="img/logo-app.png" alt="" /> <span
+                                            style="color: rgb(23, 104, 104); padding-left: 10px; margin-top: -1px;">PY
+                                            Travelix</span>
+                                    </a>
+                                </div>
+                                <div class="container__about--text">
+                                    <p>
+                                        Khám phá thế giới cùng chúng tôi - đối tác tin cậy trong hành trình khám phá và
+                                        trải nghiệm du lịch
+                                        tuyệt vời.
+                                    </p>
+                                </div>
+                                <div class="container__about--social">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-behance"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6 s-12">
+                            <div class="footer__container__blog">
+                                <h2>Bài đăng</h2>
+                                <div class="footer__container__blog--content">
+                                    <div class="container__blog__item">
+                                        <div class="container__blog__item--img">
+                                            <img src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                                alt="" />
+                                            <div class="container__blog__item--text">
+                                                <a href="#">Du lịch đảo hawaii</a><br />
+                                                <span>1/6/2027</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container__blog__item">
+                                        <div class="container__blog__item--img">
+                                            <img src="data:image/jpeg;base64,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"
+                                                alt="" />
+                                            <div class="container__blog__item--text">
+                                                <a href="#">Du lịch Vạn Lí Trường Thành</a><br />
+                                                <span>7/8/2050</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container__blog__item">
+                                        <div class="container__blog__item--img">
+                                            <img src="data:image/jpeg;base64,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"
+                                                alt="" />
+                                            <div class="container__blog__item--text">
+                                                <a href="#">Khám phá đảo san hô</a><br />
+                                                <span>15/6/2050</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-6 s-12">
+                            <div class="footer__container__tags">
+                                <h2>Từ khóa</h2>
+                                <div class="footer__container__tags__content">
+                                    <ul>
+                                        <li><a href="#">Thiết kế</a></li>
+                                        <li><a href="#">Thời trang</a></li>
+                                        <li><a href="#">âm nhạc</a></li>
+                                        <li><a href="#">video</a></li>
+                                        <li><a href="#">dã ngoại</a></li>
+                                        <li><a href="#">chụp ảnh</a></li>
+                                        <li><a href="#">phiêu lưu</a></li>
+                                        <li><a href="#">du lịch</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-6 s-12">
+                            <div class="footer__container__contact">
+                                <h2>Thông tin liên hệ</h2>
+                                <div class="footer__container__contact__content">
+                                    <div class="container__contact__info">
+                                        <div class="container__contact__info--img">
+                                            <img src="assets/images/placeholder.svg" alt="" />
+                                        </div>
+                                        <span>xxxx/Đà Nẵng, Việt Nam</span>
+                                    </div>
+                                    <div class="container__contact__info">
+                                        <div class="container__contact__info--img">
+                                            <img src="assets/images/message.svg" alt="" />
+                                        </div>
+                                        <span>xxxx 999 999</span>
+                                    </div>
+                                    <div class="container__contact__info">
+                                        <div class="container__contact__info--img">
+                                            <img src="assets/images/phone-call.svg" alt="" />
+                                        </div>
+                                        <span>xxxxxx@gmail.com</span>
+                                    </div>
+                                    <div class="container__contact__info">
+                                        <div class="container__contact__info--img">
+                                            <img src="assets/images/planet-earth.svg" alt="" />
+                                        </div>
+                                        <span>www.devPhuong.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="copyright">
+                        Copyright © 2024 By
+                        <a href="#">Nguyễn Xuân Phương/Đỗ Đặng Ý</a></span>
+                </div>
+                <ul></ul>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
